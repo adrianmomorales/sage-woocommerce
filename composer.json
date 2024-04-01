@@ -1,10 +1,14 @@
 {
-  "name": "generoi/sage-woocommerce",
+  "name": "adrianmomorales/sage-woocommerce",
   "type": "library",
   "license": "MIT",
   "description": "",
-  "homepage": "https://github.com/generoi/sage-woocommerce",
+  "homepage": "https://github.com/adrianmomorales/sage-woocommerce",
   "authors": [
+    {
+      "name": "Adrián Morales",
+      "email": "info@bufo.studio"
+    },
     {
       "name": "Oskar Schöldström",
       "email": "public@oxy.fi"
@@ -16,7 +20,7 @@
     }
   },
   "require": {
-    "roots/acorn": "*"
+    "roots/acorn": "^3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "~3.0"
@@ -28,7 +32,7 @@
       "phpcs --ignore=vendor --extensions=php --standard=PSR2 ."
     ]
   },
-  "archive" : {
+  "archive": {
     "exclude": [
       ".gitignore"
     ]
