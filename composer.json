@@ -20,7 +20,7 @@
     }
   },
   "require": {
-    "roots/acorn": "^3"
+    "roots/acorn": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "~3.0"
